@@ -1,0 +1,38 @@
+# Build output
+/target/
+
+# Local server state and diagnostics
+/data/
+/s1_store.json
+/unhandled-opcodes.json
+*.log
+
+# Local client / game data — never commit these
+/game/
+*.pki
+*.pkg
+DungeonRunners.exe
+*.dll
+*.exe
+
+# Captures, traces, and extracted data
+/captures/
+/traces/
+*.pcap
+*.pcapng
+*.jsonl
+*.drfrec
+
+# Secrets and local configuration
+.env
+.env.*
+*.local
+*.secret
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+[package]
+name = "drf-wire"
+version.workspace = true
+edition.workspace = true
+description = "Dungeon Runners game-stream framing and transport primitives (std-only)"
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true

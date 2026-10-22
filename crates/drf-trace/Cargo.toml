@@ -1,0 +1,8 @@
+[package]
+name = "drf-trace"
+version.workspace = true
+edition.workspace = true
+description = "Canonical trace vocabulary for deterministic server tests"
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true

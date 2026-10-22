@@ -1,0 +1,11 @@
+[package]
+name = "drf-proto"
+version.workspace = true
+edition.workspace = true
+description = "Client-compatible Dungeon Runners message bodies and parsers"
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+drf-content = { path = "../drf-content" }

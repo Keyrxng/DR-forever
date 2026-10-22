@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "crates/drf-wire",
+    "crates/drf-content",
+    "crates/drf-proto",
+    "crates/drf-sim",
+    "crates/drf-trace",
+    "crates/drf-server",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.88"
+authors = ["keyrxng"]
+license = "GPL-3.0-or-later"

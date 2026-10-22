@@ -1,0 +1,8 @@
+[package]
+name = "drf-sim"
+version.workspace = true
+edition.workspace = true
+description = "Deterministic Dungeon Runners zone simulation primitives (std-only, no async)"
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true

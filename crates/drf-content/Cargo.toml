@@ -1,0 +1,11 @@
+[package]
+name = "drf-content"
+version.workspace = true
+edition.workspace = true
+description = "Dungeon Runners game.pkg content reader, zone model, and class kits (std-only)"
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+drf-wire = { path = "../drf-wire" }

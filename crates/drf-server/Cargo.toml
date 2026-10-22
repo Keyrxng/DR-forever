@@ -1,0 +1,17 @@
+[package]
+name = "drf-server"
+version.workspace = true
+edition.workspace = true
+description = "Solo Dungeon Runners server: auth, world, persistence, and session orchestration"
+rust-version.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+drf-wire = { path = "../drf-wire" }
+drf-content = { path = "../drf-content" }
+drf-proto = { path = "../drf-proto" }
+
+[[bin]]
+name = "drf-server"
+path = "src/main.rs"
